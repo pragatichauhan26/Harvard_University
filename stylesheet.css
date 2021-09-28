@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    position: relative;
+}
+#navbar{
+    background-color: rgba(2,9,30,2);
+    position: fixed;
+    top: 0;
+    width: 96%;
+    height: 65px;
+}
+.header{min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2,9,30,0.5),rgba(2,9,30,0.5)), url('../HTML/MyImages/h-uni.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+.heading{
+    font-size: 30px;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(10,10,28,0.5), rgba(10,10,28,0.5)), url('../HTML/MyImages/longwood-campus.jpg');   
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    text-align: left;
+    padding: 80px 0;
+    box-shadow:0px 0px 10px lightseagreen;
+    }
+    h2{
+        background: linear-gradient(rgba(50,50,80,3.0), rgba(50,50,80,3.0));
+        border: 5px solid black;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    .b1{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        border: 3px solid mintcream;
+        display: inline-block;
+    }
+    .b2{
+        display: inline-flex;
+    }
+    .head1{
+        font-size: 70px; font-style: italic; text-align: center;text-shadow: 5px 5px 6px lavender;
+        text-decoration: underline; color:white;font-weight: 700;
+    }     
+nav{display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;}
+nav img{width: 150px;}
+.nav-links{flex: 1;
+    text-align: right;}
+.nav-links ul li{list-style: none;
+    display: inline-block;
+    padding: 2% 2%;
+    position: relative;}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: tomato;
+    display: block;
+    margin: auto;
+    transition: 0.4s;}
+.nav-links ul li:hover::after{
+    width: 100%;}
+#tb{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#tb h1{
+    font-size: 80px;}
+#tb p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color:white;
+}
+.ah{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.ah:hover{
+    border: 3px solid brown;
+    background: cadetblue;
+    transition: 0.3s;}
+#course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;}
+h1{font-size: 40px; font-weight: 500;}
+p{color: lightslategray; font-size: 20px; line-height: 30px; padding: 8px;}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-direction: row;
+}
+.cr{
+    font-size: 20px;
+    flex-basis: 30%;
+    background: lightcyan;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.cr:hover{
+    border:3px solid lightseagreen;
+    border-bottom-right-radius: 30px; border-top-left-radius: 30px;
+    box-shadow: 0px 0px 8px lightseagreen;
+    transition: 0.1s;}
+#mj{
+    font-size: 30px;
+    font-family:cursive; font-style: italic;
+    color: orange;}
+
+#mj:hover{
+    font-size: 30px;
+    font-family:cursive;
+    color: darkorange;
+    border: 3px double orangered;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px palevioletred;
+}.cour1{
+   margin: auto; padding-top: 2px; position: relative;
+}
+
+
+#OurCampus{
+    font-size: 30px;
+    color: black;
+}
+#campus{
+    width: 82%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    background-image: linear-gradient(45deg, lightslategray 30%, lightblue 25%, palevioletred 30%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#oc{
+    font-size: 25px;
+    color: lightblue;
+}
+.cc img{
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid darkcyan;}
+.cc img:hover{
+    border-radius: 30px;
+    border: 3px solid darkcyan;
+    box-shadow: 0px 0px 10px powderblue;}
+#cam1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    text-shadow: 2px lightseagreen}
+#head{
+    font-size: 35px;
+    color: black;
+    border: 3px inline darkolivegreen;
+    }
+#head:hover{
+    border: 5px double dodgerblue;
+    border-radius: 20px;
+    text-decoration: underline;
+    box-shadow: 0px 0px 10px navajowhite;
+}
+#cam{
+    font-size:30px;
+    color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.cta{
+    margin: 50px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(2,2,1,0.7), rgba(2,2,1,0.7)), url('../HTML/MyImages/image-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    padding: 80px 0;
+}
+.cta h1{
+    color: white;
+    margin-bottom: 30px;
+    padding: 0;}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer h3{
+    margin: auto;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
