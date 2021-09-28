@@ -1,0 +1,74 @@
+<!doctype html>
+<head>
+    <meta name="viewport" content="with=device-width initial scale=1.0">
+    <style>
+        .c1{
+            background-image: linear-gradient(rgba(2,9,30,0.5),rgba(2,9,30,0.5));
+        }
+        table, tr, td {
+            border: 2px solid black;
+            border-radius: 8px;
+           
+        }
+        .table{
+            margin-left: 27%;
+        }
+        tr{
+            height: 40px; width: 80px; font-weight: bold; font-size: 18px;
+        }
+        #td2{
+            width: 350px;
+        }
+        
+        .btn1 {
+            font-size: 25px; font-weight: bold;
+            width: 10%;
+            height: 48px;
+            border-radius: 5px;
+            margin-left: 27%;
+            }
+            .btn2 {
+            font-size: 25px; font-weight: bold;
+            width: 10%;
+            height: 48px;
+            border-radius: 5px;
+            margin-left: 2%;
+            }
+        #btn{
+        height:50px; width: 90px; font-size: 25px; font-weight: 700; font-family: cursive; border-radius: 10px; border: 3px solid black; position: fixed; top: 0;
+            margin-left: 10px;margin-top: 8px; background-color:rgba(2,9,30,0.6); color:cornsilk; box-shadow: 0 0 15px whitesmoke;
+        }
+    
+    </style>
+    <script src="/JavaScript/project-1.js"></script>
+
+</head>
+<body class="c1">
+    <button id="btn" onclick="document.location='project1.html'">Back</button><br><br><br>
+    <section class="form">
+        <form action="success.html">
+            <table class="table">
+                <tr ><td>Your Name:</td>
+                    <td id="td2"><input type="text" required></td></tr>
+               
+                <tr><td>Contact No:</td>
+                    <td><input type="phone" required></td></tr>
+                
+                <tr ><td>Email ID:</td>
+                    <td><input type="email" required></td></tr>
+                <tr ><td>Create a password:</td>
+                    <td><input type="password" id="pass" required>
+                    <input type="checkbox" onchange="showPass()" id="check"><label>Show Password</label></td></tr>
+    
+                <tr ><td>Choose your course:</td>
+                    <td><input type="text" required></td></tr>
+                    
+                <tr><td>Leave your message for us:</td>
+                    <td><textarea rows="2" cols="20"></textarea></td></tr>
+                
+               </table><br>
+               <tr><button type="submit" class="btn1">Submit</button><button type="reset" class="btn2">Reset</button></tr>
+             
+        </form></section>
+
+</body>
